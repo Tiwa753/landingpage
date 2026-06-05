@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply font-inter text-dark-text bg-white;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    @apply no-underline;
+  }
+
+  img {
+    @apply block max-w-full;
+  }
+}
+
+@layer components {
+  /* Button base styles */
+  .btn-base {
+    @apply font-inter font-bold cursor-pointer transition-all duration-200;
+  }
+
+  /* Badge styles */
+  .badge {
+    @apply inline-block px-2 py-1 text-xs font-bold rounded-full text-white;
+  }
+
+  .badge-popular {
+    @apply bg-green-500;
+  }
+
+  .badge-off {
+    @apply bg-purple-main;
+  }
+
+  .badge-new {
+    @apply bg-accent-orange;
+    display: inline-flex;
+    border-radius: 4px;
+    color: var(--text-h);
+  }
+
+  code {
+    font-size: 15px;
+    line-height: 135%;
+    padding: 4px 8px;
+    background: var(--code-bg);
+  }
