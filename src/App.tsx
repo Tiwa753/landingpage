@@ -8,9 +8,9 @@ import { Footer } from './components/Footer'
 
 const App: React.FC = () => {
   return (
-    <div className="w-full bg-white">
+    <div className="w-full min-h-screen bg-white">
       <Navigation />
-      <main className="mx-auto">
+      <main>
         <Hero />
         <Categories />
         <ProductsGrid />

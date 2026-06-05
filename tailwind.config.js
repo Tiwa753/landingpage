@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'sm': '480px',
+      },
       colors: {
         'purple-dark': '#270A36',
         'purple-main': '#965AB4',
