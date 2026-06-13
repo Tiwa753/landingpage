@@ -16,7 +16,7 @@ export const Navigation: React.FC = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             {/* Desktop */}
-            <img src="/logo-full.svg" alt="GlamLens" className="h-8 w-auto hidden sm:block" />
+            <img src="/logo-full-brand.svg" alt="GlamLens" className="h-8 w-auto hidden sm:block" />
             {/* Mobile */}
             <img src="/logo-icon.svg" alt="GlamLens" className="h-8 w-8 sm:hidden" />
           </div>

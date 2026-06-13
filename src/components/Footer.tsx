@@ -52,9 +52,8 @@ export const Footer: React.FC = () => (
     {/* ── CTA Band ── */}
     <div className="bg-purple-dark">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 py-16 md:py-12 text-center">
-        <div className="flex items-center justify-center gap-2.5 mb-5">
-          <img src="/logo-icon.svg" alt="GlamLens" className="h-9 w-9 rounded-full" />
-          <span className="font-inter text-xl font-black text-white tracking-tight">GlamLens</span>
+        <div className="mb-5">
+          <img src="/logo-full-brand.svg" alt="GlamLens" className="h-10 w-auto" />
         </div>
         <h2 className="font-inter text-3xl md:text-2xl font-black text-white mb-3">Ready to Try It On?</h2>
         <p className="text-sm text-white/70 max-w-md mx-auto mb-8 leading-relaxed">
@@ -83,7 +82,7 @@ export const Footer: React.FC = () => (
         <div className="grid grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-8 mb-10">
           {/* Brand column */}
           <div>
-            <img src="/logo-full.svg" alt="GlamLens" className="h-7 w-auto mb-4" />
+            <img src="/logo-full-brand.svg" alt="GlamLens" className="h-7 w-auto mb-4" />
             <p className="text-xs text-gray-500 leading-relaxed max-w-[180px]">
               AI-powered virtual try-on for fashion and beauty lovers everywhere.
             </p>
