@@ -83,7 +83,7 @@ export const Navigation: React.FC = () => {
 
       {/* ── Desktop sub-nav ── */}
       <div className="hidden md:block border-b border-border-light bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-10 flex items-center gap-1">
+        <div className="max-w-7xl mx-auto px-6 lg:pl-[187px] lg:pr-0 flex items-center gap-1">
           {NAV_ITEMS.map((item) => (
             <button
               key={item}
